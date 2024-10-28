@@ -38,7 +38,7 @@ function CheckoutForm({amount}:{amount:number}) {
 			clientSecret,
 			elements,
 			confirmParams: {
-				return_url: `https://smart-shop-frontend.vercel.app/confirm`,
+				return_url: `/confirm`,
 			},
 		})
         if (result.error) {
