@@ -38,7 +38,7 @@ function CheckoutForm({amount}:{amount:number}) {
 			clientSecret,
 			elements,
 			confirmParams: {
-				return_url: `/confirm`,
+				return_url: `https://smart-shop-sigma.vercel.app/confirm`,
 			},
 		})
         if (result.error) {
